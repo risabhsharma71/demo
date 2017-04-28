@@ -1,10 +1,11 @@
 {
     "name": "Hello-Blockchain",
     "version": "0.0.1",
+    "license": "Apache-2.0",
     "description": "A Node.js hello-world program using NodeSdk Apis",
-    "main": "app.js",
+    "main": "helloblockchain.js",
     "scripts": {
-        "start": "node app.js"
+        "start": "node helloblockchain.js"
     },
     "engines": {
         "node": "^6.9.1",
@@ -18,10 +19,24 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/IBM-Blockchain/SDK-Demo.git"
+        "url": "https://github.com/risabhsharma71/Demo1.git"
     },
-    "license": "Apache-2.0",
+
     "dependencies": {
-        "hfc": "^0.6.5"
+        "hfc": "^0.6.5",
+        "node-pre-gyp": "^0.6.0",
+        "fs": "",
+        "https": "",
+        "util": ""
+    },
+    "devDependencies": {
+        "gulp-concat": "*",
+        "gulp-minify-css": "1.2.1",
+        "gulp-rename": "*",
+        "gulp-sass": "^2.0.4",
+        "gulp-sourcemaps": "*",
+        "gulp-uglify": "^1.2.0",
+        "gulp-util": "^3.0.6",
+        "gulp-watch": "^4.3.4"
     }
 }

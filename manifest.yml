@@ -7,8 +7,6 @@ applications:
   instances: 1
   memory: 1024M
   host: demorls
-  domain: mybluemix.net
-  buildpack: https://github.com/cloudfoundry/go-buildpack
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+ buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   services:
   - sdk
